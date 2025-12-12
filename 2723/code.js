@@ -35,3 +35,24 @@ function memoize(fn) {
  * memoizedFn(2, 3) // 5
  * console.log(callCount) // 1 
  */
+
+//  var createCounter = function(init) {
+//     let current = init;
+//     return {
+//         increment: function() {
+//             // current++;
+//             // return current
+//             return ++current;
+//         }
+//         , reset: function() {
+//             // current = init
+//             // return current
+//             return (current = init)
+//         }
+//         , decrement: function() {
+//             // current--;
+//             // return current;
+//             return --current;
+//         }
+//     }
+// };
